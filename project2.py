@@ -1,4 +1,4 @@
-place1 = input ("Where will you go? Japan or Paris?")
+place1 = input ("Where will you go? japan or paris?(No captials or spaces in your answer)")
 if place1 == "paris":
     class1 = input ("Do you fly first class, or economy?")
     if class1 == "first class":

@@ -6,8 +6,8 @@ hidden_number = random.randint(0,50)
 
 #randint = random intager.
 
-#this is the start lines 10-19
 for i in range(7) :  
+    #this is the start of repeat lines 11-19.
     firstnumber1 = int(input("Guess a number between  0-50"))
     if firstnumber1 == hidden_number:
         print ("yup you somehow got it!")

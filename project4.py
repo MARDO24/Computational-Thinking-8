@@ -1,14 +1,14 @@
 import random
 
-print ("pick a number from 1 to 50 you have 7 guesses")
+print ("pick a number from 1 to 100 you have 7 guesses")
 
-hidden_number = random.randint(0,50)
+hidden_number = random.randint(0,100)
 
 #randint = random intager.
 
 for i in range(7) :  
     #this is the start of repeat lines 11-19.
-    firstnumber1 = int(input("Guess a number between  0-50"))
+    firstnumber1 = int(input("Guess a number between  0-100"))
     if firstnumber1 == hidden_number:
         print ("yup you somehow got it!")
         quit ()
